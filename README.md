@@ -55,7 +55,7 @@ Create a Next.js project using version 13.
 
 #### JSON Response:
 
-- [] Create a route that returns a JSON response with the following data:
+- [x] Create a route that returns a JSON response with the following data:
 
 {
 

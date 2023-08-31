@@ -41,6 +41,17 @@ export default function Home() {
     setCookieValue(value);
   };
 
+  const welcome = async () => {
+    let data = await fetch("http://localhost:3000/api/welcome");
+    let res = await data.json()
+    alert(res.message + ". Version:" + res.version);
+
+    
+    // if (data.status == 201) {
+    //   alert(data.json());
+    // }
+  };
+
 
   return (
     <div>
@@ -53,6 +64,12 @@ export default function Home() {
           onClick={handleGetCookie}
         >
           Get Cookie
+        </button>
+        <button
+          className="text-gray-100 bg-blue-400 p-2"
+          onClick={welcome}
+        >
+          welcome
         </button>
         <button
           className="text-gray-100 bg-blue-400 p-2"
