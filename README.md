@@ -51,7 +51,7 @@ Create a Next.js project using version 13.
 
 #### Reading Cookies:
 
-- [] Implement another route that reads the user's preference cookie and displays it on the page.
+- [x] Implement another route that reads the user's preference cookie and displays it on the page.
 
 #### JSON Response:
 
