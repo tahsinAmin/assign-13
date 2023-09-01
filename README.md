@@ -67,7 +67,7 @@ Create a Next.js project using version 13.
 
 #### Redirection:
 
-- [] Implement a route that redirects the user to a different page within your application using NextResponse.redirect().
+- [x] Implement a route that redirects the user to a different page within your application using NextResponse.redirect().
 
 #### Header Modification:
 
