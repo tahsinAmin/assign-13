@@ -50,9 +50,12 @@ export default function Home() {
     // }
   };
 
-  // const handleRedirect = async () => {
-  //   await fetch("http://localhost:3000/api/redirect");
-  // };
+  const setAuth = async () => {
+    let data = await fetch("http://localhost:3000/api/bearer");
+    let res = await data.json();
+    console.log(res);
+    alert(res.key + ". Value:" + res.value);
+  }
 
   return (
     <div>
@@ -70,6 +73,9 @@ export default function Home() {
           welcome
         </button>
         <a href="http://localhost:3000/api/redirect" className="text-gray-100 bg-blue-400 p-2"> Redirect</a>
+        <button className="text-gray-100 bg-blue-400 p-2" onClick={setAuth}>
+          Advance Authorization
+        </button>
       </div>
 
       <div className="show-msg text-center">

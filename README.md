@@ -71,13 +71,13 @@ Create a Next.js project using version 13.
 
 #### Header Modification:
 
-- [] Create a route that accepts an incoming request with an "Authorization" header.
+- [x] Create a route that accepts an incoming request with an "Authorization" header.
 
-- [] Extract the token from the header, prefix it with "Bearer", and add it as a new "Authorization" header.
+- [x] Extract the token from the header, prefix it with "Bearer", and add it as a new "Authorization" header.
 
-- [] Use NextResponse.next() to produce the response.
+- [x] Use NextResponse.next() to produce the response.
 
-- [] Styling: Feel free to style with any of the CSS framework
+- [x] Styling: Feel free to style with any of the CSS framework
 
 Submission Instruction:
 
